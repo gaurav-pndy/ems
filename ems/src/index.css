@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color: white;
+}
+
+body{
+  background-color: #111;
+}
+
+#classList::-webkit-scrollbar{
+  display: none;
+}
+
+#allTasks::-webkit-scrollbar{
+  display: none;
+}
